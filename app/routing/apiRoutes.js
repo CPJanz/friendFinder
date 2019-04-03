@@ -1,0 +1,2 @@
+//TODO: create a get route `/api/friends` This displays all possible friends
+//TODO: create a post route `/api/friends` This will handle incoming survey results. This route will also be usesd to handle compatability logic.
