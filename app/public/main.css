@@ -1,0 +1,35 @@
+h1 {
+    padding: 2rem 0 0 2rem;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 2em 0;
+}
+
+#nameInput {
+    margin-right: 3em;
+}
+
+body {
+    background-image: url(priscilla-du-preez-234138-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, .93);
+    border-radius: 2em;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+}
+
+#submit,
+#nav-button {
+    margin: auto;
+    display: block;
+}

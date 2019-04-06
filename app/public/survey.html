@@ -4,75 +4,97 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Friend Finder</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
 </head>
 
 <body>
-    <form>
-        <h1>Take the Survey!</h1>
-        <div>
-            <label for="nameInput">Name:</label>
-            <input type="text" id="nameInput">
-            <label for="imageInput">Image URL:</label>
-            <input type="url" id="imageInput">
-        </div>
-        <ul>
-            <li>
-                <label for="question-1">Text for question 1</label>
-                <input class="question-range" type="range" id="question-1" min=1 max=5>
-                <span id="display-1">3</span>
-            </li>
-            <li>
-                <label for="question-2">Text for question 2</label>
-                <input class="question-range" type="range" id="question-2" min=1 max=5>
-                <span id="display-2">3</span>
-            </li>
-            <li>
-                <label for="question-3">Text for question 3</label>
-                <input class="question-range" type="range" id="question-3" min=1 max=5>
-                <span id="display-3">3</span>
-            </li>
-            <li>
-                <label for="question-4">Text for question 4</label>
-                <input class="question-range" type="range" id="question-4" min=1 max=5>
-                <span id="display-4">3</span>
-            </li>
-            <li>
-                <label for="question-5">Text for question 5</label>
-                <input class="question-range" type="range" id="question-5" min=1 max=5>
-                <span id="display-5">3</span>
-            </li>
-            <li>
-                <label for="question-6">Text for question 6</label>
-                <input class="question-range" type="range" id="question-6" min=1 max=5>
-                <span id="display-6">3</span>
-            </li>
-            <li>
-                <label for="question-7">Text for question 7</label>
-                <input class="question-range" type="range" id="question-7" min=1 max=5>
-                <span id="display-7">3</span>
-            </li>
-            <li>
-                <label for="question-8">Text for question 8</label>
-                <input class="question-range" type="range" id="question-8" min=1 max=5>
-                <span id="display-8">3</span>
-            </li>
-            <li>
-                <label for="question-9">Text for question 9</label>
-                <input class="question-range" type="range" id="question-9" min=1 max=5>
-                <span id="display-9">3</span>
-            </li>
-            <li>
-                <label for="question-10">Text for question 10</label>
-                <input class="question-range" type="range" id="question-10" min=1 max=5>
-                <span id="display-10">3</span>
-            </li>
-        </ul>
-        <button class="btn btn-primary" id="submit">Submit</button>
-    </form>
+
+    <div class="container">
+        <h1 class="display-3 my-5">Take the Survey!</h1>
+        <hr class="my-5">
+        <form>
+            <div>
+                <label for="nameInput">Name:</label>
+                <input type="text" id="nameInput">
+                <label for="imageInput">Image URL:</label>
+                <input type="url" id="imageInput">
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col">
+                    <ul>
+                        <li>
+                            <label for="question-1">I make friends easily.</label>
+                            <br>
+                            <input class="question-range" type="range" id="question-1" min=1 max=5>
+                            <span id="display-1">3</span>
+                        </li>
+                        <li>
+                            <label for="question-2">I worry about things.</label>
+                            <br>
+                            <input class="question-range" type="range" id="question-2" min=1 max=5>
+                            <span id="display-2">3</span>
+                        </li>
+                        <li>
+                            <label for="question-3">I love large parties.</label>
+                            <br>
+                            <input class="question-range" type="range" id="question-3" min=1 max=5>
+                            <span id="display-3">3</span>
+                        </li>
+                        <li>
+                            <label for="question-4">I often feel blue.</label>
+                            <br>
+                            <input class="question-range" type="range" id="question-4" min=1 max=5>
+                            <span id="display-4">3</span>
+                        </li>
+                        <li>
+                            <label for="question-5">I radiate joy.</label>
+                            <br>
+                            <input class="question-range" type="range" id="question-5" min=1 max=5>
+                            <span id="display-5">3</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 col">
+                    <ul>
+                        <li>
+                            <label for="question-6">I panic easily.</label>
+                            <br>
+                            <input class="question-range" type="range" id="question-6" min=1 max=5>
+                            <span id="display-6">3</span>
+                        </li>
+                        <li>
+                            <label for="question-7">I try to follow the rules.</label>
+                            <br>
+                            <input class="question-range" type="range" id="question-7" min=1 max=5>
+                            <span id="display-7">3</span>
+                        </li>
+                        <li>
+                            <label for="question-8">I get chores done right away. </label>
+                            <br>
+                            <input class="question-range" type="range" id="question-8" min=1 max=5>
+                            <span id="display-8">3</span>
+                        </li>
+                        <li>
+                            <label for="question-9">I get irritated easily.</label>
+                            <br>
+                            <input class="question-range" type="range" id="question-9" min=1 max=5>
+                            <span id="display-9">3</span>
+                        </li>
+                        <li>
+                            <label for="question-10">I seek adventure.</label>
+                            <br>
+                            <input class="question-range" type="range" id="question-10" min=1 max=5>
+                            <span id="display-10">3</span>
+                        </li>
+                </div>
+            </div>
+            </ul>
+            <button class="btn btn-primary" id="submit">Submit</button>
+        </form>
+    </div>
 
     <!-- Modal -->
     <div class="modal fade" id="bestieModal" tabindex="-1" role="dialog" aria-labelledby="bestieModalLabel" aria-hidden="true">
